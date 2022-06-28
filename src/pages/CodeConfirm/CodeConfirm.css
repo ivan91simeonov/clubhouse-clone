@@ -1,0 +1,23 @@
+.text {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1em;
+}
+
+.text-input {
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+}
+
+.back-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  .icon{
+    width: 20px;
+    height: 30px;
+    color: black;
+  }
