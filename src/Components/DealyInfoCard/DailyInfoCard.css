@@ -1,0 +1,13 @@
+.daily-card {
+    background-color: #e7e4e5;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.daily-card > div {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 0.5em;
+        padding: 1px ;
+        padding-left: 1px;
+}
