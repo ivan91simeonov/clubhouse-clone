@@ -5,7 +5,7 @@ function CardInfo({item}) {
     <div className='daily'>
     <span className=''>{item.time}</span>
     <div>
-      <span>{item.title}</span>
+      <span>{item.title} </span>
       <p>{item.description}</p>
     </div>
   </div>

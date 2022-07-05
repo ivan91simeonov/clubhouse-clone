@@ -11,9 +11,9 @@ function DailyInfoCard() {
   return (
     <div className='daily-card'>
       {dailyData.map( item => (
-        <div>
+        // <div>
           <CardInfo  item={item} />
-        </div>
+        // </div>
       ))}
     </div>
   )

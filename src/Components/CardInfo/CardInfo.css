@@ -2,6 +2,7 @@
 .daily > span {
     width:  20%;
     text-align: end;
+    padding: 1rem;
 }
 
 .daily > div {
@@ -9,6 +10,7 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    padding: 1rem;
 }
 
 .daily span {
@@ -17,9 +19,23 @@
 }
 
 .daily > div{
-    
     display: flex;
     align-items: flex-start;
     margin-bottom: 0.5em;
+    /* padding: ; */
+    /* gap: 1rem; */
     
+}
+
+.daily p {
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    /* padding: 1rem; */
+    width: 195px;
 }
