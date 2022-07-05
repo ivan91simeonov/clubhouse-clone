@@ -7,7 +7,6 @@ function RoomInfoCard() {
   // console.log(data)
   return (
     <>
-      <h2>I am Room Info Card</h2>
       {data.map((item) => (
         <Card  item={item} key={item.id}/>
       ))}   
